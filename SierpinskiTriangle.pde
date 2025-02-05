@@ -10,7 +10,7 @@ public void draw()
 public void mouseClicked()//optional
 {
   background(0);
-  sierpinski(mouseX,mouseY,800-mouseX);
+  sierpinski(mouseX,mouseY,650-mouseX);
 }  
 public void sierpinski(int x, int y, int len) 
 {
