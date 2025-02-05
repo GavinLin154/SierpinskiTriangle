@@ -1,6 +1,6 @@
 public void setup()
 {
-  size(1000,1000);
+  size(800,800);
   background(0);
 }
 public void draw()
@@ -10,7 +10,7 @@ public void draw()
 public void mouseClicked()//optional
 {
   background(0);
-  sierpinski(mouseX,mouseY,1000-mouseX);
+  sierpinski(mouseX,mouseY,800-mouseX);
 }  
 public void sierpinski(int x, int y, int len) 
 {
